@@ -1,5 +1,7 @@
 package Scaler_classes;
 
+import java.util.Arrays;
+
 public class prefix_and_rangeSum {
     public static void main(String[] args) {
         int A[]={1,2,3,4,5,6,13,1,2,3,4,5,6};
@@ -21,8 +23,52 @@ If there are more than one equilibrium indexes then return the minimum index.*/
         /*Given an integer array A of size N. In one second, you can increase the value of one element by 1.
 
 Find the minimum time in seconds to make all elements of the array equal.*/
-        int res1=solve1(A);
-        System.out.println(res1);
+//        int res1=solve1(A);
+//        System.out.println(res1);
+
+        /*You are given an integer array A of length N.
+You are also given a 2D integer array B with dimensions M x 2, where each row denotes a [L, R] query.
+For each query, you have to find the sum of all elements from L to R indices in A (1 - indexed).
+More formally, find A[L] + A[L + 1] + A[L + 2] +... + A[R - 1] + A[R] for each query.*/
+
+        int AA[]= {1, 2, 3, 4, 5};
+        int BB[][] ={{1, 4}, {2, 3}};
+
+        long res2[]=rangeSum(AA,BB);
+        System.out.println(Arrays.toString(res2));
+
+    }
+    static long[] ComputePrefix(int arr[]){
+        int n=arr.length;
+        long pre[]=new long[n];
+        pre[0]=arr[0];
+        for(int i=1;i<n;i++){
+            pre[i]=arr[i]+pre[i-1];
+        }
+        return pre;
+    }
+    static long sumOfRange(long pre[],int i,int j){
+        if(i==0){
+            return pre[j];
+        }
+        return (pre[j]-pre[i-1]);
+    }
+
+    public static long[] rangeSum(int[] A, int[][] B){
+        int k=0;
+        long res[]=new long[B.length];
+        long prefix[]=new long[A.length];
+
+        prefix=ComputePrefix(A);
+        while(k<B.length){
+            int i= B[k][0];
+            int j= B[k][1];
+            long sum=sumOfRange(prefix,i-1,j-1);
+            // System.out.print(sum+" ");
+            res[k]=sum;
+            k++;
+        }
+        return res;
     }
     static int solve1(int[] A) {
         int max=0;

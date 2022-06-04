@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5acd8255-9534-463e-99f1-8eb9de8d54df" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/prefix_and_rangeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

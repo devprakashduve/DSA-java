@@ -34,9 +34,29 @@ More formally, find A[L] + A[L + 1] + A[L + 2] +... + A[R - 1] + A[R] for each q
         int AA[]= {1, 2, 3, 4, 5};
         int BB[][] ={{1, 4}, {2, 3}};
 
-        long res2[]=rangeSum(AA,BB);
-        System.out.println(Arrays.toString(res2));
+//        long res2[]=rangeSum(AA,BB);
+//        System.out.println(Arrays.toString(res2));
 
+        /* Given an array of integers A, find and return the product array of the same size where the ith element of the product array will be equal to the product of all the elements divided by the ith element of the array.
+
+Note: It is always possible to form the product array with integer (32 bit) values.*/
+
+        int res4[]=solve4(A);
+        System.out.println(Arrays.toString(res4));
+
+    }
+
+    public static int[] solve4(int[] A) {
+        int product=1;
+        int productArr[]=new int[A.length];
+        for(int i=0;i<A.length;i++){
+            product*=A[i];
+        }
+        for(int i=0;i<A.length;i++){
+            productArr[i]=product/A[i];
+        }
+
+        return productArr;
     }
     static long[] ComputePrefix(int arr[]){
         int n=arr.length;

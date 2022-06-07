@@ -11,7 +11,16 @@ Merge nums1 and nums2 into a single array sorted in non-decreasing order.
 The final sorted array should not be returned by the function, but instead be stored inside the array nums1. To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n.*/
 
         int[] nums1 = {1,2,3,0,0,0}; int m = 3; int[] nums2 = {2,5,6}; int n = 3;
-        merge(nums1, m,nums2, n);
+//        merge(nums1, m,nums2, n);
+
+        /* Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+You can return the answer in any order.*/
+int[] nums3={2,7,11,15};
+int target=9;
+        twoSum(nums3,target);
 
     }
     static void merge(int[] nums1, int m, int[] nums2, int n) {
@@ -24,5 +33,23 @@ The final sorted array should not be returned by the function, but instead be st
         System.out.println(Arrays.toString(nums1));
 
 
+    }
+
+    public static int[] twoSum(int[] nums, int target) {
+        // int[] arr={5,6,7,8,9};
+        int result[]=new int[2];
+        int i=0;
+        while(i<nums.length){
+            int y=i+1;
+            while(y<nums.length){
+                if(nums[i]+nums[y]==target){
+                    // System.out.println(i);
+                    result[0]=i; result[1]=y;
+                }
+                y++;
+            } i++;
+        }
+        System.out.println(Arrays.toString(result));
+        return result;
     }
 }

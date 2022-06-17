@@ -19,8 +19,13 @@ NOTE: Your algorithm should have a linear runtime complexity. Could you implemen
         /*Given two binary strings, return their sum (also a binary string).*/
         String A="100";
         String B="11";
-        String res=addBinary(A,B);
-        System.out.println(res);
+//        String res=addBinary(A,B);
+//        System.out.println(res);
+
+        /* Write a function that takes an integer and returns the number of 1 bits it has. */
+int AA=11;
+        int res2=numSetBits(AA);
+        System.out.println(res2);
 
     }
 
@@ -72,6 +77,16 @@ NOTE: Your algorithm should have a linear runtime complexity. Could you implemen
             }
         }
         //  System.out.print(res+" ");
+        return res;
+    }
+    public static int numSetBits(int A) {
+        int res=0;
+        String str=  Integer.toBinaryString(A);
+        for(int i=0;i<str.length();i++){
+            if(str.charAt(i)=='1'){
+                res++;
+            }
+        }
         return res;
     }
 }

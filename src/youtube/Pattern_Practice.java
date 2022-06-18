@@ -48,17 +48,121 @@ print this
         /*
 
          *
-         **
-         ***
-         ****
-         *****
-         ****
-         ***
-         **
+         *  *
+         *  *  *
+         *  *  *  *
+         *  *  *  *  *
+         *  *  *  *
+         *  *  *
+         *  *
          *
 
          */
-    pattern4(5);
+//    pattern4(5);
+/*print this pattern in reverse
+ *
+ *  *
+ *  *  *
+ *  *  *  *
+ *  *  *  *  *
+ *  *  *  *  *  *
+ *  *  *  *  *  *  *
+ *  *  *  *  *  *  *  *
+
+ * */
+//        pattern5(8);
+
+        /*
+print this pattern in reverse
+         *  *  *  *  *  *  *  *
+         *  *  *  *  *  *  *
+         *  *  *  *  *  *
+         *  *  *  *  *
+         *  *  *  *
+         *  *  *
+         *  *
+         *
+
+
+         * */
+//        pattern6(8);
+
+        /* print tree
+
+ -  -  -  -  -  -  -  -  *
+ -  -  -  -  -  -  -  *  *  *
+ -  -  -  -  -  -  *  *  *  *  *
+ -  -  -  -  -  *  *  *  *  *  *  *
+ -  -  -  -  *  *  *  *  *  *  *  *  *
+ -  -  -  *  *  *  *  *  *  *  *  *  *  *
+ -  -  *  *  *  *  *  *  *  *  *  *  *  *  *
+ -  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+ -  -  -  -  -  -  *  *  *  *  *
+ -  -  -  -  -  -  *  *  *  *  *
+ -  -  -  -  -  -  *  *  *  *  *
+ -  -  -  -  -  -  *  *  *  *  *
+ -  -  -  -  -  -  *  *  *  *  *
+ -  -  -  -  -  -  *  *  *  *  *
+ -  -  -  -  -  -  *  *  *  *  *
+ -  -  -  -  -  -  *  *  *  *  *
+ -  -  -  -  -  -  *  *  *  *  *
+
+
+
+         * */
+//        pattern7(9);
+
+//        pattern8();
+    }
+    static void pattern7(int val){
+        for(int row=1;row<val;row++){
+            for(int col=row;col<val;col++){
+                System.out.print("   ");
+            }
+            for(int col=0;col<row;col++){
+                System.out.print(" * ");
+            }
+            for(int col=1;col<row;col++){
+                System.out.print(" * ");
+            }
+            System.out.println();
+        }
+
+        for(int row=0;row<val;row++){
+            for(int col=-3;col<=val/4;col++){
+                System.out.print("   ");
+            }
+            for(int col=0;col<=val/2;col++){
+                System.out.print(" * ");
+            }
+
+            System.out.println();
+        }
+
+    }
+    static void pattern6(int val){
+    for (int row=val;row>0;row--){
+    for (int col=0;col<val-row;col++){
+        System.out.print("   ");
+    }
+    for (int col=0;col<row;col++){
+        System.out.print(" * ");
+    }
+
+    System.out.println();
+}
+    }
+    static void pattern5(int val){
+        for(int row=val;row>=1;row--){
+            int col=0;
+            for(col=1;col<row;col++){
+                    System.out.print("   ");
+            }
+            for(col=0;col<=val-row;col++){
+                System.out.print(" * ");
+            }
+            System.out.println();
+        }
     }
     static void pattern4(int val){
         for (int row=0;row<=val;row++){

@@ -112,12 +112,110 @@ print this pattern in reverse
          * */
 //        pattern7(9);
 
-//        pattern8();
+        /*
+        print this
+
+ *  -  -  -  -  -  -  -  -  *
+ *  *  -  -  -  -  -  -  *  *
+ *  -  *  -  -  -  -  *  -  *
+ *  -  -  *  -  -  *  -  -  *
+ *  -  -  -  *  *  -  -  -  *
+ *  -  -  -  *  *  -  -  -  *
+ *  -  -  *  -  -  *  -  -  *
+ *  -  *  -  -  -  -  *  -  *
+ *  *  -  -  -  -  -  -  *  *
+ *  -  -  -  -  -  -  -  -  *
+
+
+
+
+
+
+        * */
+        pattern8(3);
+    }
+    static void pattern8(int val){
+  for (int row=0;row<=val;row++){
+      System.out.print(" * ");
+      for (int col=0;col<=row;col++){
+          if (col!=0 && col==row){
+              System.out.print(" * ");
+          }else { if (col!=0 ) {
+              System.out.print("   ");
+          }
+          }
+
+      }
+      for (int col=val;col>row;col--){
+              System.out.print("   ");
+      }
+      for (int col=val;col>row;col--){
+
+          System.out.print("   ");
+      }
+      for (int col=row;col>=0;col--){
+          if (col==row){
+              System.out.print(" * ");
+          }else { if (col!=0 ) {
+              System.out.print("   ");
+          }else {
+              System.out.print(" * ");
+          }
+          }
+      }
+
+      System.out.println();
+  }
+        for (int row=0;row<=val;row++){
+            System.out.print(" * ");
+            for (int col=val-1;col>row;col--){
+                System.out.print("   ");
+            }
+            for (int col=row;col>=0;col--){
+                if (col==row && row!=val){
+                    System.out.print(" * ");
+                }else {
+                    if (col==row ) {
+                        System.out.print("");
+                    }
+                    else{
+                        System.out.print("   ");
+                    }
+
+
+                }
+            }
+            for (int col=0;col<row;col++){
+
+                System.out.print("   ");
+            }
+
+            for (int col=0;col<=row;col++){
+                if (col==row){
+                    System.out.print(" * ");
+                }
+
+            }
+            for (int col=val-1;col>=row;col--){
+                if (col==row){
+                    System.out.print(" * ");
+                }else {
+                    System.out.print("   ");
+                }
+            }
+
+            System.out.println();
+
+
+
+
+        }
+
     }
     static void pattern7(int val){
         for(int row=1;row<val;row++){
             for(int col=row;col<val;col++){
-                System.out.print("   ");
+                System.out.print(" - ");
             }
             for(int col=0;col<row;col++){
                 System.out.print(" * ");
@@ -130,7 +228,7 @@ print this pattern in reverse
 
         for(int row=0;row<val;row++){
             for(int col=-3;col<=val/4;col++){
-                System.out.print("   ");
+                System.out.print(" - ");
             }
             for(int col=0;col<=val/2;col++){
                 System.out.print(" * ");

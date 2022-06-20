@@ -20,8 +20,28 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.*/
 int[] nums3={2,7,11,15};
 int target=9;
-        twoSum(nums3,target);
+//        twoSum(nums3,target);
 
+        /*  Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+You must write an algorithm with O(log n) runtime complexity. */
+        int target2=10;
+        int res2=searchInsert(nums3,target2);
+        System.out.println("Index : "+res2);
+    }
+
+    public static int searchInsert(int[] nums, int target) {
+        int res=0;
+        for(int i=0;i<nums.length;i++){
+            if(nums[i]==target){
+                return i;
+            }else if(target<nums[i]){
+                return i;
+            }else if(target>nums[i]){
+                res=i+1;
+            }
+        }
+        return res;
     }
     static void merge(int[] nums1, int m, int[] nums2, int n) {
 

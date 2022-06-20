@@ -11,6 +11,7 @@
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/prefix_and_rangeSum.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetCode/Array_practice.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/youtube/Pattern_Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
       <recent name="E:\cApp\xampp\htdocs\tutorials\java\DSA-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Pattern_Practice">
+  <component name="RunManager" selected="Application.Array_practice">
     <configuration name="Array_practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.Array_practice" />
       <module name="DSA-java" />
@@ -116,10 +117,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Array_practice" />
         <item itemvalue="Application.Pattern_Practice" />
         <item itemvalue="Application.BitManipulations1" />
         <item itemvalue="Application.Subarray_practice" />
-        <item itemvalue="Application.Array_practice" />
         <item itemvalue="Application.Arrays_carry_forward" />
       </list>
     </recent_temporary>

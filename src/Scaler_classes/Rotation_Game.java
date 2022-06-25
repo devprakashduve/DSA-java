@@ -20,6 +20,7 @@ public class Rotation_Game {
 
          int A[]={1,2,3,4,5,6};
 int B=3;
+//        int B=46;
         // enable to input elements
        /* Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
@@ -30,7 +31,8 @@ int B=3;
         }
         int B = sc.nextInt();*/
 
-
+        // in case if B>N (arr length)
+B=B%(A.length-1);
 
 // first reverse entire array
         int[] res = reverseParts(A, 0, A.length - 1);

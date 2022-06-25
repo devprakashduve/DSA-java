@@ -7,6 +7,7 @@
     <list default="true" id="5acd8255-9534-463e-99f1-8eb9de8d54df" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Arrays_carry_forward.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/BitManipulations1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Good_Pair.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Rotation_Game.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Subarray_practice.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/prefix_and_rangeSum.java" afterDir="false" />
@@ -50,7 +51,7 @@
       <recent name="E:\cApp\xampp\htdocs\tutorials\java\DSA-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Rotation_Game">
+  <component name="RunManager" selected="Application.Good_Pair">
     <configuration name="Array_practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.Array_practice" />
       <module name="DSA-java" />
@@ -66,6 +67,19 @@
     </configuration>
     <configuration name="BitManipulations1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Scaler_classes.BitManipulations1" />
+      <module name="DSA-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Scaler_classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Good_Pair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scaler_classes.Good_Pair" />
       <module name="DSA-java" />
       <extension name="coverage">
         <pattern>
@@ -103,26 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subarray_practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scaler_classes.Subarray_practice" />
-      <module name="DSA-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Scaler_classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Good_Pair" />
         <item itemvalue="Application.Rotation_Game" />
         <item itemvalue="Application.Array_practice" />
         <item itemvalue="Application.Pattern_Practice" />
         <item itemvalue="Application.BitManipulations1" />
-        <item itemvalue="Application.Subarray_practice" />
       </list>
     </recent_temporary>
   </component>

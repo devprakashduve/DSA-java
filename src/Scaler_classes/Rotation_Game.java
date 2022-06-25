@@ -18,6 +18,7 @@ public class Rotation_Game {
         // DO NOT USE ARGUMENTS FOR INPUTS
         // E.g. 'Scanner' for input & 'System.out' for output
 
+        /* Given an integer array A of size N and an integer B, you have to print the same array after rotating it B times towards the right. */
          int A[]={1,2,3,4,5,6};
 int B=3;
 //        int B=46;

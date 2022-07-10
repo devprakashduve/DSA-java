@@ -6,6 +6,13 @@ public class Count_ways {
         int[] A={2, 1, 6, 4};
        int res= solve(A);
         System.out.println(res);
+//        for(int i=0;i<S.length();i++){
+//            if(S[i]>64 && S[i]<91){
+//                S[i]=S[i]+32;
+//            }else if(S[i]>96 && S[i]<123){
+//                S[i]=S[i]-32;
+//            }
+//        }
     }
     public static int solve(int[] A) {
         int ans =0;

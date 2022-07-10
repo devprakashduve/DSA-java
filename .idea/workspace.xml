@@ -13,6 +13,7 @@
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Max_and_Min_of_an_Array.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/PrintReverseStringRecursion.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/RecursionFindFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Scaler_classes/RecursionFindFibonacci.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Rotation_Game.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/SpecialSubsequencesAG.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Subarray_practice.java" afterDir="false" />
@@ -57,22 +58,9 @@
       <recent name="E:\cApp\xampp\htdocs\tutorials\java\DSA-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RecursionFindFactorial">
+  <component name="RunManager" selected="Application.RecursionFindFibonacci">
     <configuration name="Count_ways" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Scaler_classes.Count_ways" />
-      <module name="DSA-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Scaler_classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Equilibrium_index_of_an_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scaler_classes.Equilibrium_index_of_an_array" />
       <module name="DSA-java" />
       <extension name="coverage">
         <pattern>
@@ -110,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecursionFindFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scaler_classes.RecursionFindFibonacci" />
+      <module name="DSA-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Scaler_classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpecialSubsequencesAG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Scaler_classes.SpecialSubsequencesAG" />
       <module name="DSA-java" />
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursionFindFibonacci" />
         <item itemvalue="Application.RecursionFindFactorial" />
         <item itemvalue="Application.PrintReverseStringRecursion" />
         <item itemvalue="Application.SpecialSubsequencesAG" />
         <item itemvalue="Application.Count_ways" />
-        <item itemvalue="Application.Equilibrium_index_of_an_array" />
       </list>
     </recent_temporary>
   </component>

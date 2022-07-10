@@ -12,6 +12,7 @@
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Good_Pair.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Max_and_Min_of_an_Array.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/PrintReverseStringRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Scaler_classes/RecursionFindFactorial.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Rotation_Game.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/SpecialSubsequencesAG.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Subarray_practice.java" afterDir="false" />
@@ -56,7 +57,7 @@
       <recent name="E:\cApp\xampp\htdocs\tutorials\java\DSA-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrintReverseStringRecursion">
+  <component name="RunManager" selected="Application.RecursionFindFactorial">
     <configuration name="Count_ways" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Scaler_classes.Count_ways" />
       <module name="DSA-java" />
@@ -83,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Max_and_Min_of_an_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scaler_classes.Max_and_Min_of_an_Array" />
+    <configuration name="PrintReverseStringRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scaler_classes.PrintReverseStringRecursion" />
       <module name="DSA-java" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintReverseStringRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scaler_classes.PrintReverseStringRecursion" />
+    <configuration name="RecursionFindFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scaler_classes.RecursionFindFactorial" />
       <module name="DSA-java" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursionFindFactorial" />
         <item itemvalue="Application.PrintReverseStringRecursion" />
         <item itemvalue="Application.SpecialSubsequencesAG" />
         <item itemvalue="Application.Count_ways" />
         <item itemvalue="Application.Equilibrium_index_of_an_array" />
-        <item itemvalue="Application.Max_and_Min_of_an_Array" />
       </list>
     </recent_temporary>
   </component>

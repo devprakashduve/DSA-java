@@ -15,6 +15,7 @@
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/RecursionCheckPalindrome.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/RecursionFindFactorial.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/RecursionFindFibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Scaler_classes/RecursionSum_of_Digits.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Rotation_Game.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/SpecialSubsequencesAG.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Subarray_practice.java" afterDir="false" />
@@ -59,7 +60,7 @@
       <recent name="E:\cApp\xampp\htdocs\tutorials\java\DSA-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RecursionCheckPalindrome">
+  <component name="RunManager" selected="Application.RecursionSum_of_Digits">
     <configuration name="PrintReverseStringRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Scaler_classes.PrintReverseStringRecursion" />
       <module name="DSA-java" />
@@ -112,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpecialSubsequencesAG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scaler_classes.SpecialSubsequencesAG" />
+    <configuration name="RecursionSum_of_Digits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scaler_classes.RecursionSum_of_Digits" />
       <module name="DSA-java" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursionSum_of_Digits" />
         <item itemvalue="Application.RecursionCheckPalindrome" />
         <item itemvalue="Application.RecursionFindFibonacci" />
         <item itemvalue="Application.RecursionFindFactorial" />
         <item itemvalue="Application.PrintReverseStringRecursion" />
-        <item itemvalue="Application.SpecialSubsequencesAG" />
       </list>
     </recent_temporary>
   </component>

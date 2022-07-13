@@ -10,6 +10,7 @@
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Count_ways.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Equilibrium_index_of_an_array.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Good_Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Ismagic.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Max_and_Min_of_an_Array.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/PrintReverseStringRecursion.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/RecursionCheckPalindrome.java" afterDir="false" />
@@ -60,9 +61,9 @@
       <recent name="E:\cApp\xampp\htdocs\tutorials\java\DSA-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RecursionSum_of_Digits">
-    <configuration name="PrintReverseStringRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scaler_classes.PrintReverseStringRecursion" />
+  <component name="RunManager" selected="Application.Ismagic">
+    <configuration name="Ismagic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scaler_classes.Ismagic" />
       <module name="DSA-java" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ismagic" />
         <item itemvalue="Application.RecursionSum_of_Digits" />
         <item itemvalue="Application.RecursionCheckPalindrome" />
         <item itemvalue="Application.RecursionFindFibonacci" />
         <item itemvalue="Application.RecursionFindFactorial" />
-        <item itemvalue="Application.PrintReverseStringRecursion" />
       </list>
     </recent_temporary>
   </component>

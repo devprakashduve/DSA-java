@@ -16,6 +16,7 @@
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/RecursionCheckPalindrome.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/RecursionFindFactorial.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/RecursionFindFibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Scaler_classes/RecursionImplementPowerFunction.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/RecursionSum_of_Digits.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/Rotation_Game.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Scaler_classes/SpecialSubsequencesAG.java" afterDir="false" />
@@ -61,7 +62,7 @@
       <recent name="E:\cApp\xampp\htdocs\tutorials\java\DSA-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ismagic">
+  <component name="RunManager" selected="Application.RecursionImplementPowerFunction">
     <configuration name="Ismagic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Scaler_classes.Ismagic" />
       <module name="DSA-java" />
@@ -88,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionFindFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scaler_classes.RecursionFindFactorial" />
+    <configuration name="RecursionFindFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scaler_classes.RecursionFindFibonacci" />
       <module name="DSA-java" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionFindFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scaler_classes.RecursionFindFibonacci" />
+    <configuration name="RecursionImplementPowerFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scaler_classes.RecursionImplementPowerFunction" />
       <module name="DSA-java" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursionImplementPowerFunction" />
         <item itemvalue="Application.Ismagic" />
         <item itemvalue="Application.RecursionSum_of_Digits" />
         <item itemvalue="Application.RecursionCheckPalindrome" />
         <item itemvalue="Application.RecursionFindFibonacci" />
-        <item itemvalue="Application.RecursionFindFactorial" />
       </list>
     </recent_temporary>
   </component>

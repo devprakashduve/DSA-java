@@ -1,4 +1,4 @@
-public class Solution {
+public class Minimum_mooves {
     public int minMoves(int[] nums) {
         int min = nums[0];
         long sum = 0;
@@ -14,7 +14,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Minimum_mooves solution = new Minimum_mooves();
 
         // Test cases
         int[] test1 = {1, 2, 3};
